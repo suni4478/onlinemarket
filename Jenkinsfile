@@ -8,13 +8,13 @@ pipeline{
               sh "mvn clean package"
     }
       }
+      }
       stage("deploy to dev"){
       when{
         branch "dev"
         steps{
              echo "deploy to development .... "
-    }
-      }
+        }
       }
     }
   }
