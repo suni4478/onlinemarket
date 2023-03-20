@@ -1,5 +1,5 @@
 FROM openjdk11-jre
 WORKDIR /opt/tomcat/
-COPY onlinebookstore-0.0.1.war
+COPY target/*.war /usr/local/tomcat/webapps/myweb.war
 EXPOSE 8080
 CMD["/opt/tomcat/tomcat9/bin/catalina.sh","run"]
