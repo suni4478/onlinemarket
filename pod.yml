@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: onlinemarket
   labels:
-    name: onlinemarket
+    app: onlinemarket
 spec:
   containers:
   - name: onlinemarket
