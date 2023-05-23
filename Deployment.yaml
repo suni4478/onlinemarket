@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: onlinemarket
-        image: sunil4478/onlinemarket:v1
+        image: sunil4478/project1:v1
         resources:
           limits:
             memory: "128Mi"
